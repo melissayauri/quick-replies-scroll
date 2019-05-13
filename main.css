@@ -1,0 +1,39 @@
+.chat{
+    display: block;
+    margin: 0 auto;
+    border:1px solid blue;
+    width: 29rem;
+ 
+    padding: 10px;
+}
+
+
+.items {
+    outline: 1px solid orange;
+    padding-bottom: 10px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+  
+    cursor: pointer;
+    transition: all 0.2s;
+    position: relative;
+    background: rgba(255,255,255,0.1);
+   
+}
+/*scroll y touch*/
+.wrapper {
+    overflow-x:scroll;
+    overflow-y:hidden;
+    -webkit-overflow-scrolling:touch;
+    white-space:nowrap;
+   
+  }
+  
+  .elem {
+    display:inline-block;
+    margin:10px;
+  
+  }
+
+
