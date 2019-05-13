@@ -5,6 +5,8 @@
     width: 29rem;
  
     padding: 10px;
+    height: 26rem;
+    overflow-y: scroll;
 }
 
 
