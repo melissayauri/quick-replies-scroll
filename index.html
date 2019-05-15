@@ -7,18 +7,33 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
     <link rel="stylesheet" href="main.css">
 </head>
 
 <body>
     <div class="chat">
+        <p>carusel</p>
+        <div class="gallery js-flickity">
+                <div class="gallery-cell"></div>
+                <div class="gallery-cell"></div>
+                <div class="gallery-cell"></div>
+                <div class="gallery-cell"></div>
+                <div class="gallery-cell"></div>
+        </div>
         <h1>Quick replies</h1>
+        <div class="slides">
+            <div id="slide-1">
+                <button class="btn btn-replies"><p class="buttonText">Contraseñas</p></button>
+                <button class="btn btn-replies"><p class="buttonText">Tengo una solicitud</p>
+                </button><button class="btn btn-replies"><p class="buttonText">Tengo un problema</p></button>
+            </div>
+        </div>
         <p>scroll</p>
         <div class="items">
-            <a class="waves-effect waves-light btn">Contraseñas</a>
-            <a class="waves-effect waves-light btn">Tengo una solicitud</a>
-            <a class="waves-effect waves-light btn">Tengo un problema</a>
+            <button class="waves-effect waves-light btn">Contraseñas</button>
+            <button class="waves-effect waves-light btn">Tengo una solicitud</button>
+            <button class="waves-effect waves-light btn">Tengo un problema</button>
         </div>
         <p>scroll y touch</p>
         <div class="wrapper">
@@ -49,6 +64,7 @@
 
 
     </div>
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
     <script src="app.js"></script>
 </body>
 
